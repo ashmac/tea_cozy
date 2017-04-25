@@ -135,6 +135,9 @@ span {
   height: 200px;
 
 }
+#contact h2 {
+  text align-items: center;
+}
 
 .footer {
   text-align: left;
