@@ -27,7 +27,8 @@ nav span {
 }
 header img {
   height: 50px;
-  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
  nav {
@@ -43,15 +44,14 @@ header img {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
-  margin: 0 auto;
-  padding-top: 70px;
+  background-position: top center;
+  margin: 80px auto;
   display: flex;
   align-items: center;
   width: 100%
 }
 #mission .content {
   background-color: black;
-  height: 100px;
   align-content: center;
   width: 100%;
 
@@ -88,7 +88,7 @@ h2 h3 h4 {
 h2 {
   display: block;
   font-weight: bold;
-  width: 1200px;
+  
 
 
 }
@@ -96,7 +96,6 @@ h2 {
 h4 {
   display: block;
   font-weight: bold;
-  background-color: black;
   padding: 10px;
 
 }
