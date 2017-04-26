@@ -113,6 +113,7 @@ span {
 .flex-container {
   display: flex;
   flex-direction: row;
+  
 }
  #locations .flex-container{
   width: 0 auto;
@@ -123,7 +124,7 @@ span {
   background-color: black;
   display: inline-flex;
   flex-direction: column;
-  align-items: center;
+  align-items: space-between;
   justify-content: space-around;
   width: 300px;
 
@@ -140,4 +141,5 @@ span {
 .footer {
   text-align: left;
   padding-left: 20px;
+  font-weight: bold;
 }
