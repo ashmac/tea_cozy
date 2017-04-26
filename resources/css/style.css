@@ -109,11 +109,13 @@ span {
   background-repeat: no-repeat;
   height: 500px;
   padding-top: 70px;
+  margin: 80px auto 0;
 }
-.flex-container {
+.flex-container items{
   display: flex;
-  flex-direction: row;
-  
+  flex-wrap: wrap;
+  align-items: center;
+
 }
  #locations .flex-container{
   width: 0 auto;
@@ -124,8 +126,8 @@ span {
   background-color: black;
   display: inline-flex;
   flex-direction: column;
-  align-items: space-between;
-  justify-content: space-around;
+  align-items: center;
+
   width: 300px;
 
 
